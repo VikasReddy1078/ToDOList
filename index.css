@@ -1,0 +1,49 @@
+/* Basic reset for body margin */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: aqua;
+}
+
+/* Container for centering the content */
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling the todo list */
+.todo-list {
+  margin-top: 20px;
+}
+
+/* Styling each todo item */
+.todo-item {
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Checkbox styling */
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Label styling for todo items */
+.todo-item label {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Style for completed tasks */
+.todo-item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: #888;
+}
